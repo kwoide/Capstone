@@ -1,0 +1,138 @@
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.nameOfTheDish,
+.padThaiDiv {
+  position: absolute;
+  top: 16px;
+  left: 0;
+  letter-spacing: 0.4px;
+  line-height: 24px;
+  display: inline-block;
+}
+.padThaiDiv {
+  top: 50px;
+  font-size: 12px;
+}
+.seperatorDiv {
+  position: absolute;
+  top: 44px;
+  left: 0;
+  background-color: #15133c;
+  width: 270px;
+  height: 2px;
+  overflow: hidden;
+}
+.priceDiv {
+  top: 119px;
+  letter-spacing: 0.4px;
+  line-height: 24px;
+  display: inline-block;
+}
+.div,
+.priceDiv,
+.seperatorDiv1 {
+  position: absolute;
+  left: 0;
+}
+.div {
+  top: 153px;
+  font-size: 12px;
+  letter-spacing: 0.4px;
+  line-height: 24px;
+  display: inline-block;
+}
+.seperatorDiv1 {
+  top: 147px;
+  background-color: #15133c;
+  width: 270px;
+  height: 2px;
+  overflow: hidden;
+}
+.mainDiv,
+.typeDiv {
+  position: absolute;
+  top: 222px;
+  left: 0;
+  letter-spacing: 0.4px;
+  line-height: 24px;
+  display: inline-block;
+}
+.mainDiv {
+  top: 256px;
+  font-size: 12px;
+}
+.seperatorDiv2 {
+  position: absolute;
+  top: 250px;
+  left: 0;
+  background-color: #15133c;
+  width: 270px;
+  height: 2px;
+  overflow: hidden;
+}
+.discriptionDiv,
+.padThaiIsStirFryDishMade {
+  position: absolute;
+  top: 325px;
+  left: 0;
+  letter-spacing: 0.4px;
+  line-height: 24px;
+  display: inline-block;
+}
+.padThaiIsStirFryDishMade {
+  top: 365px;
+  font-size: 12px;
+  line-height: 20.5px;
+  width: 270px;
+}
+.seperatorDiv3 {
+  position: absolute;
+  top: 353px;
+  left: 0;
+  background-color: #15133c;
+  width: 270px;
+  height: 2px;
+  overflow: hidden;
+}
+.buttonBackToMenu {
+  position: absolute;
+  top: 469px;
+  left: 0;
+}
+.inputPreviewPopupArticle {
+  position: relative;
+  width: 270px;
+  height: 514px;
+  flex-shrink: 0;
+  overflow: hidden;
+  text-align: left;
+  font-size: 16px;
+  color: #000;
+  font-family: Roboto;
+}
+.previewPopupDiv {
+  position: relative;
+  background-color: #fff;
+  height: 632px;
+  display: flex;
+  flex-direction: row;
+  padding: 39px 34px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  opacity: 0;
+  max-width: 90%;
+  max-height: 90%;
+  overflow: auto;
+}
+.previewPopupDiv.animate {
+  animation: 1s ease 0s 1 normal forwards slide-in-top;
+}

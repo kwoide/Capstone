@@ -1,0 +1,90 @@
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.usernameInput,
+.usernameInput1 {
+  border: 0;
+  background-color: #f9f3f3;
+  position: absolute;
+  top: 23px;
+  left: 0;
+  width: 270px;
+  display: flex;
+  flex-direction: row;
+  padding: 18px 168px 18px 17px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.usernameInput1 {
+  top: 93px;
+  padding: 18px 169px 18px 17px;
+}
+.submitButton {
+  position: absolute;
+  top: 9px;
+  left: 111px;
+  font-size: 18px;
+  letter-spacing: 0.4px;
+  line-height: 24px;
+  display: inline-block;
+  font-family: Roboto;
+  color: #fff;
+  text-align: left;
+}
+.usernameInputButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: #15133c;
+  position: absolute;
+  top: 163px;
+  left: 0;
+  width: 270px;
+  height: 42px;
+}
+.forgotPassword {
+  text-decoration: none;
+  position: absolute;
+  top: 215px;
+  left: 187px;
+  font-size: 10px;
+  letter-spacing: 0.4px;
+  line-height: 24px;
+  font-weight: 300;
+  font-family: Roboto;
+  color: #ec994b;
+  text-align: left;
+  display: inline-block;
+}
+.form {
+  position: relative;
+  width: 270px;
+  height: 270px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.loginPopupDiv {
+  position: relative;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  padding: 39px 34px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  max-width: 90%;
+  max-height: 90%;
+  overflow: auto;
+}
+.loginPopupDiv.animate {
+  animation: 1s ease 0s 1 normal forwards slide-in-top;
+}

@@ -1,0 +1,346 @@
+@keyframes roll-in-left {
+  0% {
+    transform: translateX(-50px) rotate(-540deg);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0) rotate(0deg);
+    opacity: 1;
+  }
+}
+.vectorIcon {
+  position: absolute;
+  height: 35.71%;
+  width: 9.72%;
+  top: 32%;
+  right: 79.88%;
+  bottom: 32.29%;
+  left: 10.4%;
+  max-width: 100%;
+  max-height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+.vectorIcon.animate {
+  animation: 1.5s ease 0s 1 normal forwards roll-in-left;
+}
+.happymenuH1 {
+  margin: 0;
+  position: absolute;
+  top: 39px;
+  left: 105.44px;
+  font-size: inherit;
+  letter-spacing: 6px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+}
+.topNavHeader {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 187.5px);
+  background-color: #15133c;
+  width: 375px;
+  height: 100px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 24px;
+  color: #fff;
+  font-family: Roboto;
+}
+.thaiCoSpan {
+  letter-spacing: 6px;
+}
+.wSpan {
+  letter-spacing: 3px;
+}
+.thaiCowboysH1 {
+  top: 37px;
+  left: 31px;
+  font-size: inherit;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+}
+.mENUH1,
+.pricelevel,
+.thaiCowboysH1,
+.typeOfCuisineThai {
+  margin: 0;
+  position: absolute;
+  line-height: 24px;
+  display: inline-block;
+}
+.mENUH1 {
+  top: 352px;
+  left: 31px;
+  font-size: 20px;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+}
+.pricelevel,
+.typeOfCuisineThai {
+  top: 17px;
+  left: 14px;
+  letter-spacing: 3px;
+  text-align: center;
+}
+.pricelevel {
+  top: 48px;
+  left: 13px;
+}
+.adressB {
+  font-family: Roboto;
+}
+.hamburgP {
+  margin: 0;
+}
+.adressFuhlsbttlerStrae16,
+.descriptionGreatThaiCuisin,
+.phone040123456789 {
+  margin: 0;
+  position: absolute;
+  top: 79px;
+  left: 14px;
+  letter-spacing: 3px;
+  line-height: 24px;
+  display: inline-block;
+  width: 281px;
+}
+.descriptionGreatThaiCuisin,
+.phone040123456789 {
+  top: 135px;
+  left: 15px;
+  width: 280px;
+}
+.phone040123456789 {
+  top: 191px;
+  left: 14px;
+}
+.frameSection {
+  position: absolute;
+  top: 84px;
+  left: 31px;
+  background-color: #fceaea;
+  width: 314px;
+  height: 245px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 12px;
+  color: #15133c;
+  font-family: Roboto;
+}
+.dessertP,
+.mainP,
+.starterP {
+  margin: 0;
+  position: absolute;
+  top: 17px;
+  left: 113px;
+  font-size: 16px;
+  letter-spacing: 3px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+}
+.dessertP,
+.mainP {
+  top: 301px;
+  left: 132px;
+}
+.dessertP {
+  top: 595px;
+  left: 117px;
+}
+.springrollsWith {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.p,
+.springrollsWithSweetAndSou {
+  margin: 0;
+  position: absolute;
+  top: 58px;
+  left: 68px;
+  letter-spacing: 3px;
+  line-height: 24px;
+  display: inline-block;
+}
+.p {
+  top: 106px;
+  left: 136px;
+  font-size: 9px;
+  font-style: italic;
+}
+.thaiCucumberSaladWithPeanu {
+  top: 212px;
+  left: 58px;
+  width: 198px;
+}
+.p1,
+.p2,
+.thaiCornFritters,
+.thaiCucumberSaladWithPeanu {
+  margin: 0;
+  position: absolute;
+  letter-spacing: 3px;
+  line-height: 24px;
+  display: inline-block;
+}
+.p1 {
+  top: 260px;
+  left: 137px;
+  font-size: 9px;
+  font-style: italic;
+}
+.p2,
+.thaiCornFritters {
+  top: 147px;
+  left: 82px;
+}
+.p2 {
+  top: 171px;
+  left: 136px;
+  font-size: 9px;
+  font-style: italic;
+}
+.padThai {
+  top: 342px;
+  left: 123px;
+}
+.p3,
+.padThai,
+.tomYumSoupWithCoconutMilk {
+  margin: 0;
+  position: absolute;
+  letter-spacing: 3px;
+  line-height: 24px;
+  display: inline-block;
+}
+.p3 {
+  top: 366px;
+  left: 132px;
+  font-size: 9px;
+  font-style: italic;
+}
+.tomYumSoupWithCoconutMilk {
+  top: 407px;
+  left: 31px;
+  width: 249px;
+}
+.p4 {
+  top: 460px;
+  left: 131px;
+  font-size: 9px;
+  font-style: italic;
+}
+.p4,
+.p5,
+.thaiMangoStickyRiceKhaoN {
+  margin: 0;
+  position: absolute;
+  letter-spacing: 3px;
+  line-height: 24px;
+  display: inline-block;
+}
+.thaiMangoStickyRiceKhaoN {
+  top: 636px;
+  left: 45px;
+  width: 234px;
+}
+.p5 {
+  top: 689px;
+  left: 134px;
+  font-size: 9px;
+  font-style: italic;
+}
+.homemadeRolledIceCream {
+  top: 730px;
+  left: 59px;
+  width: 205px;
+}
+.homemadeRolledIceCream,
+.p6,
+.thaiBananaSteamedCake {
+  margin: 0;
+  position: absolute;
+  letter-spacing: 3px;
+  line-height: 24px;
+  display: inline-block;
+}
+.p6 {
+  top: 783px;
+  left: 140px;
+  font-size: 9px;
+  font-style: italic;
+}
+.thaiBananaSteamedCake {
+  top: 824px;
+  left: 59px;
+  width: 205px;
+}
+.p7 {
+  top: 877px;
+  left: 140px;
+  font-size: 9px;
+  font-style: italic;
+}
+.p7,
+.p8,
+.thaiFilletOfFishBakedInB {
+  margin: 0;
+  position: absolute;
+  letter-spacing: 3px;
+  line-height: 24px;
+  display: inline-block;
+}
+.thaiFilletOfFishBakedInB {
+  top: 501px;
+  left: 32px;
+  width: 249px;
+}
+.p8 {
+  top: 554px;
+  left: 132px;
+  font-size: 9px;
+  font-style: italic;
+}
+.frameSection1 {
+  position: absolute;
+  top: 399px;
+  left: 28px;
+  background-color: #fceaea;
+  width: 314px;
+  height: 944px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 12px;
+  color: #15133c;
+  font-family: Roboto;
+}
+.detailSeiteRestaurantDiv,
+.main {
+  background-color: #fff;
+  overflow: hidden;
+}
+.main {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  width: 375px;
+  height: 1475px;
+  text-align: left;
+  font-size: 24px;
+  color: #000;
+  font-family: Roboto;
+}
+.detailSeiteRestaurantDiv {
+  position: relative;
+  width: 100%;
+  height: 1575px;
+}

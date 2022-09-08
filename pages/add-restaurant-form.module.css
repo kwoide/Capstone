@@ -1,0 +1,121 @@
+@keyframes roll-in-left {
+  0% {
+    transform: translateX(-50px) rotate(-540deg);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0) rotate(0deg);
+    opacity: 1;
+  }
+}
+.vectorIcon {
+  position: absolute;
+  height: 35.71%;
+  width: 9.72%;
+  top: 32%;
+  right: 79.88%;
+  bottom: 32.29%;
+  left: 10.4%;
+  max-width: 100%;
+  max-height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+.vectorIcon.animate {
+  animation: 1.5s ease 0s 1 normal forwards roll-in-left;
+}
+.happymenuH1 {
+  margin: 0;
+  position: absolute;
+  top: 39px;
+  left: 105.44px;
+  font-size: inherit;
+  letter-spacing: 6px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+}
+.topNavHeader {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 187.5px);
+  background-color: #15133c;
+  width: 375px;
+  height: 100px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 24px;
+  color: #fff;
+  font-family: Roboto;
+}
+.usernameInputTextField {
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 30px;
+  left: 11px;
+}
+.typeOfCuisineInputFormControl {
+  position: absolute;
+  top: 94px;
+  left: 11px;
+}
+.pricelevelInputFormControl {
+  position: absolute;
+  top: 158px;
+  left: 11px;
+}
+.adressInputTextField,
+.descriptionInputTextField,
+.descriptionInputTextField1 {
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 222px;
+  left: 11px;
+}
+.descriptionInputTextField,
+.descriptionInputTextField1 {
+  top: 286px;
+}
+.descriptionInputTextField1 {
+  top: 350px;
+}
+.buttonSubmit {
+  position: absolute;
+  top: 427px;
+  left: 11px;
+  cursor: pointer;
+}
+.buttonCancel,
+.form {
+  position: absolute;
+  top: 517px;
+  left: 0;
+}
+.form {
+  top: 0;
+  left: 53px;
+  width: 270px;
+  height: 562px;
+  overflow: hidden;
+}
+.addRestaurantFormDiv,
+.main {
+  background-color: #fff;
+  overflow: hidden;
+}
+.main {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  width: 375px;
+  height: 569px;
+}
+.addRestaurantFormDiv {
+  position: relative;
+  width: 100%;
+  height: 667px;
+}

@@ -1,0 +1,92 @@
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.frGastronomenB {
+  position: absolute;
+  top: 17px;
+  left: 51px;
+  font-size: 16px;
+  letter-spacing: 0.4px;
+  line-height: 24px;
+  text-transform: uppercase;
+  display: inline-block;
+  font-family: Roboto;
+  color: #000;
+  text-align: left;
+}
+.buttonb2b {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: #ec994b;
+  position: absolute;
+  top: 401px;
+  left: 56px;
+  width: 262px;
+  height: 57px;
+  overflow: hidden;
+  opacity: 0;
+}
+.buttonb2b.animate {
+  animation: 1s ease 0s 1 normal forwards fade-in;
+}
+.restaurantSuchenB {
+  position: absolute;
+  top: 17px;
+  left: 44px;
+  font-size: 16px;
+  letter-spacing: 0.4px;
+  line-height: 24px;
+  text-transform: uppercase;
+  display: inline-block;
+  font-family: Roboto;
+  color: #fff;
+  text-align: left;
+}
+.buttonb2c,
+.lottiePlayer {
+  position: absolute;
+  overflow: hidden;
+}
+.buttonb2c {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: #15133c;
+  top: 472px;
+  left: 56px;
+  width: 262px;
+  height: 57px;
+  opacity: 0;
+}
+.buttonb2c.animate {
+  animation: 1s ease 1s 1 normal forwards fade-in;
+}
+.lottiePlayer {
+  top: 0;
+  left: 0;
+  width: 375px;
+  height: 387px;
+}
+.homepageDiv,
+.main {
+  background-color: #fff;
+  overflow: hidden;
+}
+.main {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  width: 375px;
+  height: 569px;
+}
+.homepageDiv {
+  position: relative;
+  width: 100%;
+  height: 667px;
+}

@@ -1,0 +1,140 @@
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.dishNameInputTextField,
+.priceInputTextField {
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 12.5px;
+  left: 0;
+}
+.priceInputTextField {
+  top: 82.5px;
+}
+.typeInputFormControl {
+  position: absolute;
+  top: 153px;
+  left: 0;
+}
+.buttonSubmit,
+.decriptionInputTextField {
+  position: absolute;
+  top: 223px;
+  left: 0;
+}
+.buttonSubmit {
+  top: 414px;
+  left: 6px;
+  cursor: pointer;
+}
+.buttonCancel {
+  position: absolute;
+  top: 469px;
+  left: 6px;
+}
+.addMoreDiishes,
+.div {
+  top: 3px;
+  letter-spacing: 0.4px;
+  line-height: 24px;
+  font-family: Roboto;
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+}
+.div {
+  position: absolute;
+  left: 6px;
+  font-size: 32px;
+  font-weight: 500;
+}
+.addMoreDiishes {
+  background-color: transparent;
+  left: 34px;
+  font-size: 10px;
+  font-weight: 300;
+}
+.addMoreDiishes,
+.frameButton,
+.previewButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  position: absolute;
+}
+.frameButton {
+  background-color: #ec994b;
+  top: 362px;
+  left: 0;
+  border-radius: 50px;
+  width: 143px;
+  height: 30px;
+  overflow: hidden;
+}
+.previewButton {
+  background-color: transparent;
+  top: 3px;
+  left: 36px;
+  font-size: 10px;
+  letter-spacing: 0.4px;
+  line-height: 24px;
+  font-weight: 300;
+  font-family: Roboto;
+  color: #ec994b;
+  text-align: left;
+  display: inline-block;
+}
+.akarIconseye,
+.frameButton1 {
+  position: absolute;
+  top: 7px;
+  left: 10px;
+  width: 15px;
+  height: 15px;
+  overflow: hidden;
+}
+.frameButton1 {
+  cursor: pointer;
+  border: 1px solid #ec994b;
+  padding: 0;
+  background-color: transparent;
+  top: 362px;
+  left: 180px;
+  border-radius: 50px;
+  box-sizing: border-box;
+  width: 90px;
+  height: 30px;
+}
+.form {
+  position: relative;
+  width: 270px;
+  height: 514px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.addMenuPopupDiv {
+  position: relative;
+  background-color: #fff;
+  height: 632px;
+  display: flex;
+  flex-direction: row;
+  padding: 39px 34px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  opacity: 0;
+  max-width: 90%;
+  max-height: 90%;
+  overflow: auto;
+}
+.addMenuPopupDiv.animate {
+  animation: 1s ease 0s 1 normal forwards slide-in-top;
+}

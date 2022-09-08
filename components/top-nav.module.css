@@ -1,0 +1,51 @@
+@keyframes roll-in-left {
+  0% {
+    transform: translateX(-50px) rotate(-540deg);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0) rotate(0deg);
+    opacity: 1;
+  }
+}
+.vectorIcon {
+  position: absolute;
+  height: 35.71%;
+  width: 9.72%;
+  top: 32%;
+  right: 79.88%;
+  bottom: 32.29%;
+  left: 10.4%;
+  max-width: 100%;
+  max-height: 100%;
+  opacity: 0;
+}
+.vectorIcon.animate {
+  animation: 1.5s ease 0s 1 normal forwards roll-in-left;
+}
+.happymenuH1 {
+  margin: 0;
+  position: absolute;
+  top: 39px;
+  left: 105.44px;
+  font-size: inherit;
+  letter-spacing: 6px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+}
+.topNavHeader {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 187.5px);
+  background-color: #15133c;
+  width: 375px;
+  height: 100px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 24px;
+  color: #fff;
+  font-family: Roboto;
+}
